@@ -4,7 +4,7 @@ set -e
 ARCH=$(uname -m)
 DOCKER_REPO=homeassistant
 DATA_SHARE=/usr/share/hassio
-URL_VERSION="https://s3.amazonaws.com/hassio-version/stable.json"
+# URL_VERSION="https://s3.amazonaws.com/hassio-version/stable.json"
 URL_BIN_HASSIO="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-supervisor"
 URL_BIN_APPARMOR="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-apparmor"
 URL_SERVICE_HASSIO="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/files/hassio-supervisor.service"
